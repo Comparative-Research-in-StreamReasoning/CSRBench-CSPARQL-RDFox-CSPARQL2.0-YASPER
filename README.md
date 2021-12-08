@@ -8,7 +8,7 @@ CSRBench-oracle (extended with RDFox, YASPER, and C-SPARQL2.0)
  * The code is released under the Apache 2.0 license
 
 **The project has five main files:**
-* (eu.planetdata.srbench.oracle.engineRDFox.)**RDFoxWrapper**: Simulates the RDF streams and executes the queries with the RDFox engine. Executing this class produces the RDFox answers. To run the RDFox Wrapper, you will need to provide the path to a license-file as command line parameter.
+* (eu.planetdata.srbench.oracle.engineRDFox.)**RDFoxWrapper**: Simulates the RDF streams and executes the queries with the RDFox engine. Executing this class produces the RDFox answers. To run the RDFoxWrapper, you will need to provide the path to a license-file as command line parameter.
 * (eu.planetdata.srbench.oracle.engineCSPARQL2.)**CSPARQL2Wrapper**:  Simulates the RDF streams and executes the queries with the YASPER engine. Executing this class produces the YASPER answers.
 * (eu.planetdata.srbench.oracle.engineYASPER.)**YASPERWrapper**:  Simulates the RDF streams and executes the queries with the C-SPARQL2.0 engine. Executing this class produces the C-SPARQL2.0 answers.
 * (eu.planetdata.srbench.oracle.repository.)**SRBenchImporter**: Prepares the necessary data for the RDF Repository (is necessary for the Oracle to work).
